@@ -1,0 +1,38 @@
+
+body {
+    background-color: white;
+    color: #4CAF50;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+h1, h2 {
+    color: #4CAF50;
+}
+form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 1em;
+}
+input, button {
+    padding: 0.5em;
+}
