@@ -2,49 +2,73 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Crusoe Gongbay Foundation</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header>
-    <img src="logo.jpeg" alt="Crusoe Gongbay Foundation Logo" class="logo" />
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="donate.html">Donate</a></li>
-        <li><a href="events.html">Events</a></li>
-        <li><a href="photos.html">Photos</a></li>
-        <li><a href="social.html">Social Media</a></li>
+  <nav class="navbar navbar-expand-lg navbar-light bg-success">
+    <a class="navbar-brand text-white" href="index.html">CG Foundation</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link text-white" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="contact.html">Contact</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="donate.html">Donate</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="events.html">Events</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="photos.html">Photos</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="social.html">Social</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="blog.html">Blog</a></li>
       </ul>
-    </nav>
+    </div>
+  </nav>
+
+  <header class="jumbotron text-center bg-light">
+    <h1 class="display-4">Crusoe Gongbay Foundation</h1>
+    <p class="lead">Creating a better tomorrow, today.</p>
+    <a class="btn btn-success btn-lg" href="donate.html">Donate Now</a>
   </header>
-  <main>
-    <section class="intro">
-      <h1>Crusoe Gongbay Foundation</h1>
-      <p class="mission">Creating a better tomorrow, today.</p>
-    </section>
-    <section class="about">
-      <h2>About Me</h2>
-      <p class="quote">"God has blessed me so much in my life that it's only right that I give back as much as I can."</p>
-      <p>My name is Crusoe Gongbay, and I am the CEO and Founder of the Crusoe Gongbay Foundation. I was born in Rockville, Maryland, and attended the University of New Mexico where I played football and majored in business. I am the youngest of six children, and my roots are from Monrovia, Liberia, Africa. This foundation is built on faith and the belief in helping those in need.</p>
-    </section>
-    <section class="volunteer">
-      <h2>Volunteer With Us</h2>
-      <form>
-        <input type="text" placeholder="First Name" required />
-        <input type="text" placeholder="Last Name" required />
-        <input type="text" placeholder="Business / EIN" />
-        <input type="email" placeholder="Email" required />
-        <input type="text" placeholder="Non-profit Organization" />
-        <input type="tel" placeholder="Phone Number" />
-        <button type="submit">Submit</button>
-      </form>
-    </section>
-  </main>
-  <footer>
+
+  <section class="container text-center mb-5">
+    <h2>About Me</h2>
+    <p>"God has blessed me so much in my life that it's only right that I give back as much as I can."</p>
+    <p>Crusoe Gongbay, CEO & Founder</p>
+    <p>Born in Rockville, MD. Attended the University of New Mexico, played football, majored in Business. Youngest of six children. Roots from Monrovia, Liberia.</p>
+  </section>
+
+  <section class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center">Welcome Video</h2>
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <section class="container py-5">
+    <h2 class="text-center mb-4">Testimonials</h2>
+    <div class="row">
+      <div class="col-md-6"><blockquote>"The CG Foundation changed my life." - Jane D.</blockquote></div>
+      <div class="col-md-6"><blockquote>"Supportive, kind, and faith-driven." - John A.</blockquote></div>
+    </div>
+  </section>
+
+  <section class="bg-success text-white text-center py-5">
+    <h2>Subscribe to Our Newsletter</h2>
+    <form class="form-inline justify-content-center mt-3">
+      <input class="form-control mr-2" type="email" placeholder="Enter email" />
+      <button class="btn btn-light" type="submit">Subscribe</button>
+    </form>
+  </section>
+
+  <footer class="text-center py-4">
     <p>&copy; 2025 Crusoe Gongbay Foundation</p>
   </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
